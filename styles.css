@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* General Styling */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Title */
+  .title {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #2c3e50;
+  }
+  
+  /* Form Card Styling */
+  .form-card {
+    border-radius: 15px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Input Fields */
+  .input-field {
+    border: none;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input Field Focus */
+  .input-field:focus {
+    outline: none;
+    box-shadow: inset 2px 2px 8px rgba(0, 0, 0, 0.15), inset -2px -2px 8px rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Save Button */
+  .save-btn {
+    border-radius: 25px;
+    background-color: #3498db;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(255, 255, 255, 0.7);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .save-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+  }
+  
+  /* Cancel Button */
+  .cancel-btn {
+    border-radius: 25px;
+    background-color: #95a5a6;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(255, 255, 255, 0.7);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #7f8c8d;
+    transform: translateY(-2px);
+  }
+  
+  /* Table Styling */
+  table {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  thead {
+    background-color: #34495e;
+    color: white;
+  }
+  
+  tbody tr:hover {
+    background-color: #ecf0f1;
+    transition: background-color 0.3s;
+  }
+  
+  /* Edit and Delete Buttons */
+  .btn-warning {
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-danger {
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
